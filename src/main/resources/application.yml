@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: advent-of-code-2024
+  shell:
+    interactive:
+      enabled: true
