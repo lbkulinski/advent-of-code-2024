@@ -16,7 +16,7 @@ public final class Commands {
     }
 
     @ShellMethod(key = "day-1", value = "Prints the output for Day 1")
-    public String day1() {
+    public String day1() throws Exception {
         return dayService.getDay1Output();
     }
 }
